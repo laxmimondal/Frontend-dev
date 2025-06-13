@@ -1,0 +1,24 @@
+
+    .styling{
+        color: rgb(184, 17, 45);
+        background-color: blanchedalmond;
+        padding: 10px;
+        border: solid 2px rebeccapurple;
+        border-style:dotted;
+    }
+
+    body{
+        background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&fit=max&w=930);
+    }
+
+    /* text decoration */
+    .decor{
+        text-decoration: underline;
+        /* text-transform: uppercase; */
+        text-align: center;
+        font-family: "Exile", system-ui;
+        font-weight: 400;
+        font-style: normal;
+       
+
+    }

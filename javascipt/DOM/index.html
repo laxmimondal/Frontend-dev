@@ -1,0 +1,29 @@
+<!-- HTML DOM QUERY SELECTOR -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="index.js"></script> -->
+</head>
+<body>
+    <div id="fdiv">
+    <p id="fpara" class="test">This is my first text
+    <span> span</span></p>
+    <p id="fhead" class="test">this is my second para</p>
+    </div>
+    <script>
+        let element = document.querySelector('#fdiv');
+        let content = element.textContent;
+       console.log(content);
+                 let content2 = element.outerHTML;
+      
+          console.log(content2);
+      
+let content3 = element.innerHTML;
+console.log(content3);
+    </script>
+</body>
+</html>

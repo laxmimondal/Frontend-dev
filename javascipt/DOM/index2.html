@@ -1,0 +1,28 @@
+<!-- MODIFY HTML DOM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Hello 
+        <div class="mydiv">
+            <p id="fpara">first</p>
+            <p>second</p>
+            <p>third</p>
+        </div>
+    </div>
+    <script>
+        let mydiv = document.querySelector('.mydiv');
+console.log(mydiv);
+let element = document.createElement('span');
+ element.textContent = "hey babee";
+console.log(element);
+mydiv.insertAdjacentElement('beforebegin',element);
+
+    </script>
+</body>
+</html>

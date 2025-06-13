@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H3>Registation Form</H3>
+    <form action="/action.php">
+    <input type="text" placeholder="username">
+    <br>
+    <br>
+    <input type="password" placeholder="password">
+    <br>
+    <h4>select class</h4>
+    
+   <label for="101">
+    <input type="radio" value="class 11" name="class" id="101">class 11
+    </label>
+    <br>
+    <label for= "102">
+    <input type="radio" value="class 12" name="class" id="102">class 12
+    </label>
+    <br>
+    <h4>Select your subjects</h4>
+    
+    <label for="math">
+        <input type ="checkbox" value="math" name = "subject" id="math">Math
+    </label>
+    <label for="phy">
+        <input type ="checkbox" value="phy" name = "subject" id="phy">Phy
+    </label>
+    <label for="bio">
+        <input type ="checkbox" value="bio" name = "subject" id="bio">Bio
+    </label>
+    <label for="chem">
+        <input type ="checkbox" value="chem" name = "subject" id="chem">Chem
+    </label>   
+    <br>
+    <textarea name="feedback" id="fb" placeholder="Please give yout feedback" rows="5" cols="30"></textarea>
+    <!--dropdown-->
+    <BR>
+    <select name="city">
+        <option value="DLH">DELHI</option>
+        <option value="BLR">BANGALORE</option>
+        <option value="MUM">MUMBAI</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit">
+    <!--embed vdo link-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QRrPE9aj3wI?si=6ssryqkrEkTlNAJZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <video width="560" height="315" src="\rajmachvid.m4v" controls></video>
+ </form>
+</body>
+</html>

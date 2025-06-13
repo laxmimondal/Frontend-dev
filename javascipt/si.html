@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest</title>
+    <Style>
+        body{
+            padding-top: 10px;
+        }
+    </Style>
+</head>
+<body>
+    <div class="panelbody">
+        <script>
+            function execute(){
+                alert("Let's Calculate SI");
+                 let P = prompt("Please Enter Principal Amount");
+                 let N = prompt("Please Enter No. of Years");
+                 let R = prompt("Please Enter Rate of Interest");
+                 document.write("Principal: "+P + "<br>");
+                 document.write("Number of Years: "+N+ "<br>");
+                 document.write("Rate of Interest: "+R + "<br>");
+
+                 let decision = confirm("Shall we procees to calculate the SI ?");
+                 if(decision) console.log("You decided to calculate the SI"+"<br>");
+                 else console.log("You decided  not to calculate the SI"+"<br>");
+                 eval(P*R*N);
+                 document.write("Calculated SI: "+ (eval(P*R*N)/100)+"<br>");
+                 function executeMe1() {
+                        document.write("Function timeout !!!" + "<br><br>");
+                    }
+                    setTimeout(executeMe1, 3000);
+            }
+        </script>
+    </div>
+    <button onclick="execute();">Click here to Calcute SI</button>
+</body>
+</html>
